@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+<head lang="en">
+    <meta charset="utf-8">
+    <title>Getting Started With ngGrid Example</title>
+    <link rel="stylesheet" type="text/css" href="/Content/ng-grid.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="/Angular/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="/Angular/angular.js"></script>
+    <script type="text/javascript" src="/Angular/ng-grid.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
+   
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-touch.js"></script>
+   
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-animate.js"></script>
+   
+    <script src="http://ui-grid.info/docs/grunt-scripts/csv.js"></script>
+   
+    <script src="http://ui-grid.info/docs/grunt-scripts/pdfmake.js"></script>
+   
+    <script src="http://ui-grid.info/docs/grunt-scripts/vfs_fonts.js"></script>
+
+
+</head>
+<body ng-controller="MyCtrl">
+    <div class="gridStyle" ng-grid="gridOptions" style="width:800px"></div>
+    <button ng-click="selectEnosRow()">Select Enos Row</button>
+</body>
+</html>
